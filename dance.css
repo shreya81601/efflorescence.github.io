@@ -1,0 +1,186 @@
+
+header
+{
+  height: 80vh;
+  position: relative;
+}
+
+/*=========================================================================================*/
+/*LANDING PAGE*/
+
+#landing-page
+{
+  display: flex;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: url("images/bg12.jpg");
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-position: center;
+  /*border: 1px solid black;*/
+}
+
+.landing-info
+{
+  display: inline-block;
+  flex: 1;
+  height: 100%;
+  margin: 0;
+  /*border: 1px solid black;*/  
+}
+
+.landing-text
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%,-50%);
+  font-size: 2em;
+  color: black;
+  padding: 50px 30px;
+  background-color: rgba(255,255,255,0.5);
+  width: 100%;
+  height: auto;
+  /*border: 1px solid black;*/
+}
+
+.landing-text h1
+{
+  font-size: 2em;
+  /*font-weight: bold;*/
+  padding: 0;
+  margin-bottom: 0;
+  text-shadow: 2px 2px darkgrey;
+  color: black;
+}
+
+.landing-text h3
+{
+  font-size: 0.7em;
+  font-weight: bold;
+  text-align: right;
+  padding: 0;
+  padding-right: 20%;
+  margin-top: 0;
+  /*color: #c2000c;*/
+  /*font-family: 'Abel', sans-serif;*/
+}
+
+.landing-text h4
+{
+  font-size: 1.5em;
+  /*color: red;*/
+  padding: 0;
+  color: #c2000c;
+  /*font-family: 'Charm', cursive;*/ /*matched merienda*/
+  /*font-family: 'Kotta One', serif;*/
+  /*font-family: 'Stalemate', cursive;
+  font-family: 'Quintessential', cursive;*/
+
+    font-family: 'Tangerine', cursive;
+    text-shadow: 2px 2px darkgrey;
+
+
+    /*font-family: 'Kaushan Script', cursive;*/ /*matches merienda*/
+
+    /*font-family: 'Parisienne', cursive;*/
+
+    /*font-family: 'Satisfy', cursive;*/
+
+    /*font-family: 'Codystar', cursive;*/
+}
+
+.arrow1 {
+  /*margin-right: 20%;*/
+  top: 87%;
+  left:50%;
+  transform: translateX(-50%);
+  position:absolute;
+  color: black; 
+  text-shadow: 2px 2px darkgrey;
+  font-size: 50px; 
+  /*cursor: pointer; 
+  border-radius:25px;*/
+ /* animation: bounce 2s ease infinite;*/
+}
+
+
+/*=========================================================================================*/
+/*GALLERY*/
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+/*.row {
+  margin: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}*/
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+/*@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}*/
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/*@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}*/
