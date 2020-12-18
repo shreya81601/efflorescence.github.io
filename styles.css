@@ -25,6 +25,14 @@ section
 
 
 .line {
+      width: 120%;
+      background: #c2000c;
+      display: block;
+      height: 5px;
+      margin-top: 20px;
+}
+
+.line5 {
       width: 80%;
       background: #c2000c;
       display: block;
@@ -251,7 +259,7 @@ section
 
 .textbox
 {
-	width: 85%;
+	width: 90%;
 	/*border: 2px dotted grey;*/
 	height: 75%;
 	position: absolute;
@@ -266,7 +274,7 @@ section
 .me-text h1
 {
 	font-family: 'Tangerine', cursive;
-	font-size: 2.5em;
+	font-size: 2.7em;
 	text-shadow: 2px 2px darkgrey;
 	margin-top: 0;
 }
@@ -282,7 +290,7 @@ section
 
 blockquote {
     font-size: 2.5em;
-    width: 50%;
+    width: auto;
     margin-top: 5%;
     position: absolute;
     left: 10%;
