@@ -1,0 +1,207 @@
+html
+{
+  	scroll-behavior: smooth;
+}
+
+body
+{
+	padding: 0;
+	margin: 0;
+
+  font-family: 'Cormorant Infant', serif;
+    
+}
+
+.border {
+  /*box-shadow: 10px 8px 16px 0px rgba(0,0,0,0.5);*/
+  box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.2);
+}
+
+.border2 {
+  box-shadow: 10px 8px 16px 0px rgba(0,0,0,0.5);
+}
+
+.border3 {
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+}
+
+
+/*=========================================================================================*/
+/*NAVBAR*/
+
+#nav_button
+{
+  display: block;
+  position: fixed;
+  top: 15px;
+  right: 20px;
+  z-index: 4;
+  /*color: #818181;*/
+  color: black;
+  font-size: 40px; 
+  cursor: pointer;
+  transition: 0.5s;
+  text-shadow: 2px 2px darkgrey;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align:center;
+}
+
+.sidenav a {
+  /*padding: 8px 8px 8px 32px;*/
+  /*padding: 15px 8px 15px 32px;*/
+  padding: 0px 50px;
+  text-decoration: none;
+  font-size: 50px;
+  color: #818181;
+  display: inline-block;
+  transition: 0.3s;
+  font-family: 'Tangerine', cursive;
+  line-height: 90vh;
+}
+
+.sidenav a:hover{
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 50px;
+  line-height: 0;
+  right: 25px;
+  font-size: 70px;
+  margin-left: 50px;
+  transition: 0.5s;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+/*=================================================================================*/
+/*FOOTER*/
+
+footer
+{
+  margin: 0;
+  height: auto;
+  background: rgba(0,0,0,0.85);
+}
+
+footer p
+{
+  font-size: 14pt;
+  padding-left: 50px;
+  color: grey;
+  /*border: 1px solid yellow;*/
+}
+
+h4
+{
+  font-size: 24pt;
+  /*font-family: 'Katibeh', cursive;*/
+  margin: 20px;
+  color: ivory;
+}
+
+/*top block of footer i.e. footer part 1*/
+.info
+{
+  display: flex;
+  width: 100%;
+  height: 250px;
+  margin: 0 auto;
+  padding: 25px 0px;
+}
+
+/*Style Bodacious Black info*/
+.BB
+{
+  display: inline-block;
+  flex: 1;
+  margin: 0;
+  text-align: center;
+}
+
+/*style contact info*/
+.contact
+{
+  display: inline-block;
+  flex: 1;
+  font-size: 16pt;
+  margin: 0;
+  text-align: center;
+  color: grey;
+}
+
+.contact a
+{
+  color: grey;
+  font-size: 16pt;
+}
+
+/*to highlight links*/
+.contact a:hover
+{
+  color: white;
+}
+
+footer .contact span
+{
+  font-size: 12pt;
+}
+
+/*for social media icons*/
+.social
+{
+  padding-top: 30px;
+  flex: 1;
+  text-align: center;
+}
+
+footer .social a
+{
+  text-decoration: none;
+  font-size: 14pt;
+  color: grey;
+}
+
+.social a:hover
+{
+  color: white;
+}
+
+/*bottom part of footer i.e. the copyright section*/
+.copyright
+{
+  text-align: center;
+  max-width: 100%;
+  display: block;
+  background: rgba(0,0,0,0.9);
+  width: 100%;
+  height: auto;
+  padding: 10px 0px;
+  color: darkgrey;
+  /*line-height: 37.5px;*/
+}
+
+footer .copyright p
+{
+  font-size: 16pt;
+  padding: 0px;
+  color: grey;
+}
+

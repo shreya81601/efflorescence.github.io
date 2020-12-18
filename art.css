@@ -1,0 +1,225 @@
+/*=========================================================================================*/
+/*LANDING PAGE*/
+
+#landing-page
+{
+  /*display: flex;*/
+  position: relative;
+  height: 60vh;
+  margin: 0;
+  padding: 0;
+  background: url("images/bg12.jpg");
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-position: center;
+  /*border: 1px solid black;*/
+}
+
+.landing-info
+{
+  display: inline-block;
+  flex: 1;
+  height: 100%;
+  margin: 0;
+  /*border: 1px solid black;*/  
+}
+
+.landing-text
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%,-50%);
+  font-size: 2em;
+  color: black;
+  padding: 10px;
+  background-color: rgba(255,255,255,0.5);
+  width: 80%;
+  height: auto;
+  /*border: 1px solid black;*/
+}
+
+.landing-text h1
+{
+  /*display: inline-block;*/
+  font-size: 1.5em;
+  /*font-weight: bold;*/
+  padding: 0;
+  margin-bottom: 0;
+  text-shadow: 2px 2px darkgrey;
+  color: black;
+}
+
+.landing-text h4
+{
+  /*display: inline-block;*/
+  font-size: 1.5em;
+  /*color: red;*/
+  padding: 0;
+  color: #c2000c;
+  /*font-family: 'Charm', cursive;*/ /*matched merienda*/
+  /*font-family: 'Kotta One', serif;*/
+  /*font-family: 'Stalemate', cursive;
+  font-family: 'Quintessential', cursive;*/
+
+    font-family: 'Tangerine', cursive;
+    text-shadow: 2px 2px darkgrey;
+
+
+    /*font-family: 'Kaushan Script', cursive;*/ /*matches merienda*/
+
+    /*font-family: 'Parisienne', cursive;*/
+
+    /*font-family: 'Satisfy', cursive;*/
+
+    /*font-family: 'Codystar', cursive;*/
+}
+
+.arrow1 {
+  /*margin-right: 20%;*/
+  top: 89%;
+  left:50%;
+  transform: translateX(-50%);
+  position:absolute;
+  color: black; 
+  text-shadow: 2px 2px darkgrey;
+  font-size: 50px; 
+  /*cursor: pointer; 
+  border-radius:25px;*/
+ /* animation: bounce 2s ease infinite;*/
+}
+
+#hundred
+{
+  height: 100vh;
+}
+
+/*=========================================================================================*/
+/*LINES*/
+
+.line1 {
+      width: 80%;
+      background-color: black;
+      display: block;
+      height: 5px;
+      margin-top: 3%;
+      position: absolute;
+}
+
+.line2 {
+      width: 5px;
+      background-color: #c2000c;
+      display: block;
+      height: 70%;
+      margin-left: 5%;
+      position: absolute;
+}
+
+
+.line {
+      width: 40%;
+      background: #c2000c;
+      display: block;
+      height: 5px;
+      margin-top: 20px;
+}
+
+.line3 {
+      width: 85%;
+      background-color: black;
+      display: block;
+      height: 5px;
+      position: absolute;
+      bottom: 1.2%;
+      right: 0%;
+}
+
+.line4 {
+      width: 5px;
+      background-color: #c2000c;
+      display: block;
+      height: 70%;
+      position: absolute;
+      right: 5%;
+      bottom: 0;
+}
+
+
+/*=========================================================================================*/
+/*GALLERY*/
+
+section 
+{
+  position: relative;
+}
+
+.heading
+{
+  font-size: 2em;
+}
+
+/*.sticky
+{
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: white;
+  padding-bottom: 20px;
+  border: 1px solid black;
+}*/
+
+.bg
+{
+  /*background: url("images/bg11.jpg");*/
+  /*background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;*/
+  background-color: gainsboro;
+  padding: 5px 0;
+  margin-top: 20px;
+  position: relative;
+}
+
+.row {
+  margin: 5% 10%;
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  padding: 0 4px;
+  /*background-position: center;*/
+}
+
+.column {
+  -ms-flex: 15%; 
+  flex: 15%;
+  padding: 0 10px;
+}
+
+.column img {
+  width: 100%;
+  margin-top: 20px;
+  vertical-align: middle;
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.8);
+}
+
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
