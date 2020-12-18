@@ -26,6 +26,47 @@ body
 }
 
 
+#lineA {
+      width: 60%;
+      background-color: white;
+      display: none;
+      height: 2px;
+      margin-top: 2%;
+      left: 5%;
+      position: fixed;
+}
+
+#lineB {
+      width: 2px;
+      background-color: white;
+      display: none;
+      height: 40%;
+      margin-left: 5%;
+      margin-top: 2%;
+      position: fixed;
+}
+
+#lineC {
+      width: 60%;
+      background-color: white;
+      display: none;
+      height: 2px;
+      position: fixed;
+      bottom: 7%;
+      right: 5%;
+}
+
+#lineD {
+      width: 2px;
+      background-color: white;
+      height: 40%;
+      position: fixed;
+      right: 5%;
+      bottom: 7%;
+      display: none;
+}
+
+
 /*=========================================================================================*/
 /*NAVBAR*/
 
@@ -68,11 +109,12 @@ body
   display: inline-block;
   transition: 0.3s;
   font-family: 'Tangerine', cursive;
-  line-height: 90vh;
+  line-height: 80vh;
 }
 
 .sidenav a:hover{
   color: #f1f1f1;
+  text-decoration: underline;
 }
 
 .sidenav .closebtn {
@@ -83,6 +125,12 @@ body
   font-size: 70px;
   margin-left: 50px;
   transition: 0.5s;
+}
+
+.sidenav .activate
+{
+  color: white;
+  text-decoration: underline;
 }
 
 @media screen and (max-height: 450px) {

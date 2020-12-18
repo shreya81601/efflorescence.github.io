@@ -5,12 +5,12 @@ var elements = document.getElementsByClassName("column");
 var i;
 
 // Full-width images
-function one() {
+/*function one() {
     for (i = 0; i < elements.length; i++) {
     elements[i].style.msFlex = "100%";  // IE10
     elements[i].style.flex = "100%";
   }
-}
+}*/
 
 // Two images side by side
 function two() {

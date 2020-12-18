@@ -20,11 +20,19 @@ $('#landing-page').backgroundMove({
 function openNav() {
   document.getElementById("mySidenav").style.width = "100%";
   document.getElementById("nav_button").style.display = "none";
+  document.getElementById("lineA").style.display = "block";
+  document.getElementById("lineB").style.display = "block";
+  document.getElementById("lineC").style.display = "block"
+  document.getElementById("lineD").style.display = "block";
 }
 
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
   document.getElementById("nav_button").style.display = "block";
+  document.getElementById("lineA").style.display = "none";
+  document.getElementById("lineB").style.display = "none";
+  document.getElementById("lineC").style.display = "none"
+  document.getElementById("lineD").style.display = "none";
 }
 
 

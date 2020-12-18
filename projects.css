@@ -139,7 +139,7 @@ section
 
 
 .line {
-      width: 50%;
+      width: 40%;
       background: #c2000c;
       display: block;
       height: 5px;
@@ -172,7 +172,7 @@ section
 
 blockquote {
     font-size: 2.5em;
-    width: 50%;
+    width: 70%;
     margin-top: 5%;
     position: absolute;
     left: 10%;
@@ -229,6 +229,7 @@ blockquote {
   background-color:  #7b7b7b;
   color: white;
   transform: rotateY(180deg);
+  overflow: auto;
   /*padding: 5px 15px;*/
   /*line-height: 30%;*/
 }
